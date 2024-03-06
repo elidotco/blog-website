@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&display=swap");
+
+/* Defualts */
+html {
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+/* Defualts */
+
+body {
+  background: #141414;
+  color: white;
+}
