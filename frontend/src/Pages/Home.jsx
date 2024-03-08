@@ -1,5 +1,10 @@
 import React from "react";
-import { Header, HeroSection, Newsletter } from "../components";
+import {
+  Header,
+  HeroSection,
+  Newsletter,
+  BlogPreviewSection,
+} from "../components";
 
 const Home = () => {
   return (
@@ -7,6 +12,7 @@ const Home = () => {
       <Newsletter />
       <Header />
       <HeroSection />
+      <BlogPreviewSection />
     </div>
   );
 };

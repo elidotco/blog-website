@@ -14,3 +14,7 @@ body {
   background: #141414;
   color: white;
 }
+
+.hero-card:last-child {
+  border-right: none;
+}
