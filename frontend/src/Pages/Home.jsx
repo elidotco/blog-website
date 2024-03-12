@@ -4,6 +4,7 @@ import {
   HeroSection,
   Newsletter,
   BlogPreviewSection,
+  HomeFilesSection,
 } from "../components";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
           <p className="bg-[#333] px-2 py-1 w-fit">
             Your Gateway to In-Depth Information
           </p>
-          <h1 className="text-[28px] lg:text-[40px] w-[80%]">
+          <h1 className="text-[28px] lg:text-[40px] w-full md:w-[80%]">
             Unlock Valuable Knowledge with FutureTech's Resources
           </h1>
         </div>
@@ -27,6 +28,16 @@ const Home = () => {
           <ArrowUpRightIcon className="w-5 h-5 text-[#ffd11a] " />
         </p>
       </div>
+      <HomeFilesSection
+        name="Ebooks"
+        iconn={0}
+        desc="Explore our collection of ebooks covering a wide spectrum of future technology topics."
+      />
+      <HomeFilesSection
+        name="Whitepapers"
+        iconn={1}
+        desc="Dive into comprehensive reports and analyses with our collection of whitepapers. "
+      />
     </div>
   );
 };

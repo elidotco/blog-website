@@ -6,3 +6,4 @@ export { default as FeaturesContainer } from "./FeaturesContainer";
 export { default as FeaturesCard } from "./FeaturesCard";
 export { default as BlogPreviewSection } from "./BlogPreviewSection";
 export { default as BlogCard } from "./BlogCard";
+export { default as HomeFilesSection } from "./HomeFilesSection";
