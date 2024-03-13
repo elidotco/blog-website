@@ -7,3 +7,4 @@ export { default as FeaturesCard } from "./FeaturesCard";
 export { default as BlogPreviewSection } from "./BlogPreviewSection";
 export { default as BlogCard } from "./BlogCard";
 export { default as HomeFilesSection } from "./HomeFilesSection";
+export { default as Review } from "./Review";
