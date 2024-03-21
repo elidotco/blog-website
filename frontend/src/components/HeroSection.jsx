@@ -71,21 +71,21 @@ const HeroSection = () => {
       </div>
       {/* Hero Section */}
       {/* hero cards contianers */}
-      <div className="flex px-5 lg:px-20 flex-wrap border-t justify-between border-[#262626]">
+      <div className="flex px-5 lg:px-20 flex-wrap border-b border-t justify-between border-[#262626]">
         <HeroCard
-          icon={0}
+          icon={1}
           name="Latest News Updates"
           type="Stay Current"
           desc="Over 1,000 articles published monthly"
         />
         <HeroCard
-          icon={1}
+          icon={2}
           name="Expert Contributors"
           type="Trusted Insights"
           desc="50+ renowned AI experts on our team"
         />
         <HeroCard
-          icon={2}
+          icon={3}
           name="Global Readership"
           type="Worldwide Impact"
           desc="2 million monthly readers"
