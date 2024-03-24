@@ -6,17 +6,19 @@ const Header = () => {
   return (
     <header className="w-full py-7 px-5 md:px-10 lg:px-20 sticky top-0 flex justify-between items-center bg-[#1a1a1a]">
       {/* Logo */}
-      <div className="flex items-center">
-        <img src={logo} alt="logo" className="w-10 h-auto" />
-        <p className="font-bold text-xl"> FutureTech</p>
-      </div>
+      <Link to="/">
+        <div className="flex items-center">
+          <img src={logo} alt="logo" className="w-10 h-auto" />
+          <p className="font-bold text-xl"> FutureTech</p>
+        </div>
+      </Link>
       {/* Logo */}
       <ul className=" gap-10 hidden md:flex">
         <li className="text-[#7E7E81] border hover:border-white hover:rounded-lg border-[#1a1a1a] hover:text-white hover:bg-[#141414] px-3 py-2">
-          <Link to="#">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="text-[#7E7e81] border hover:border-white hover:rounded-lg border-[#1a1a1a] hover:text-white hover:bg-[#141414] px-3 py-2">
-          <Link to="#">News</Link>
+          <Link to="/news">News</Link>
         </li>
         <li className="text-[#7E7e81] border hover:border-white hover:rounded-lg border-[#1a1a1a] hover:text-white hover:bg-[#141414] px-3 py-2">
           <Link to="#">Podcasts</Link>

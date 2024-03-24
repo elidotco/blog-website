@@ -9,3 +9,4 @@ export { default as BlogCard } from "./BlogCard";
 export { default as HomeFilesSection } from "./HomeFilesSection";
 export { default as Review } from "./Review";
 export { default as Footer } from "./Footer";
+export { default as NewsCard } from "./NewsCard";
